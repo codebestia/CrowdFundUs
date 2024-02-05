@@ -1,0 +1,55 @@
+.form-box{
+    width: 350px;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #ffffff12;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+.form-group{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #add8e4;
+}
+.form-group:last-child{
+    border-bottom: none;
+}
+.side-form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.side-form-group > div{
+    padding: 10px;
+}
+.form-group.flex > div{
+    padding: 10px;
+}
+.copy-button{
+    margin-left: 2px;
+    border: none;
+    outline: none;
+    background-color: none;
+    cursor: pointer;
+}
+.projects{
+    list-style: none;
+}
+.projects li a{
+    display: inline-block;
+    width: 100%;
+    background-color: #0f485d;
+    border-radius: 10px;
+    margin: 10px 0;
+    padding: 10px;
+    color: white;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.projects li a:hover{
+    background-color: #236b85;
+}

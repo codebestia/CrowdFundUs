@@ -1,0 +1,48 @@
+.small-form-box{
+    padding: 10px 0;
+}
+.details-header-section{
+    margin: 10px 0;
+}
+.details-header-section .details{
+    padding: 15px 10px;
+    border-radius: 15px;
+    background-size: cover;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    background-color: #0f485daf;
+    background-blend-mode: overlay;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    background-position: center;
+    
+
+}
+.details-header-section .details h2{
+    margin: 10px 0;
+}
+.details-header-section .details p{
+    margin: 10px 0;
+}
+.contributors{
+    width: 100%;
+    border-collapse: collapse;
+
+}
+.contributors th{
+    color: white;
+    text-align: left;
+    padding: 10px 15px;
+}
+.contributors td{
+    padding: 10px 15px;
+    background-color: #0f485d;
+    color: white;
+    margin: 10px 0;
+
+}
+.contributors td:first-child{
+    border-radius: 10px 0 0 10px;
+}
+.contributors td:last-child{
+    border-radius: 0 10px 10px 0;
+}

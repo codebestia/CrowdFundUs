@@ -1,0 +1,30 @@
+.form-input{
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 1px solid #61dafb;
+    color: white;
+}
+.form-input::placeholder{
+    color: #b9e5f1a5;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+label{
+    color: white;
+    display: inline-block;
+    margin-bottom: 5px;
+    font-size: 14px;
+
+}

@@ -1,0 +1,28 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.nav h1{
+    font-weight: bold;
+    color: #61dafb;
+    
+}
+.nav-header{
+    text-decoration: none;
+    color: #61dafb;
+    font-weight: bold;
+}
+.nav > div{
+    padding: 0 10px;
+}
+.nav-link{
+    color: #61dafb;
+    padding: 0 10px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+}

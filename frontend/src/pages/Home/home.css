@@ -1,0 +1,71 @@
+.writeup{
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1;
+    padding: 20px 0;
+    text-align: center;
+}
+.project-section{
+    margin-top: 10px;
+}
+.project-section > .header{
+    margin: 10px 0;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.column{
+    width: 25%;
+    padding: 15px 10px;
+}
+.card{
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #ffffff12;
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    backdrop-filter: blur(10px);
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+.card .img-container{
+    width: 100%;
+    height: 200px;
+}
+.card .img-container img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    background-color: #0f485d;
+}
+.card-content{
+    padding: 10px;
+}
+.card-content h3{
+    color: white;
+    margin: 10px 0;
+}
+.card-content .link{
+    color: white;
+    transition: 0.5;
+    text-decoration: none;
+}
+.card-content .link:hover{
+    color: #0f485d;
+}
+
+
+@media screen and (max-width: 768px) {
+    .column{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .column{
+        width: 100%;
+    }
+}

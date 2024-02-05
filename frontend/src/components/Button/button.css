@@ -1,0 +1,27 @@
+.btn{
+    background-color: #30a8c9;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.btn:hover{
+    background-color: #14819f;
+}
+.btn-active{
+    background-color: #14819f;
+}
+.icon{
+    /* width: 25px;
+    height: auto; */
+    font-size: 18px;
+    color: white;
+    display: inline-block;
+    margin-right: 5px
+}
